@@ -230,7 +230,7 @@ body {
 }
 @media (max-width: 768px) {
   .progress-bar-view {
-    width: 200px;
+    width: 180px;
     height: 6px;
   }
 }
@@ -291,7 +291,7 @@ body {
 }
 @media (max-width: 768px) {
   .about-us-content-edu-section {
-    width: 80%;
+    width: 90%;
     margin: 10px;
   }
 }
@@ -372,7 +372,7 @@ body {
   }
   .certificate-showcase-card-uppersection img {
     width: 250px;
-    height: 160px;
+    height: 150px;
   }
 }
 
@@ -481,8 +481,12 @@ body {
   gap: 100px;
 }
 @media (max-width: 768px) {
+  .footer-section{
+    padding: 20px;
+  }
   .footer-contact-socialmedia {
     gap: 50px;
+    margin: 20px;
   }
 }
 .social-link i{
