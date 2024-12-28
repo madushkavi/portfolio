@@ -56,6 +56,7 @@ body {
 .icon span {
   background: linear-gradient(45deg, #131bc3, #5f92be, rgb(61, 85, 124));
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 @keyframes animateLogoloading {
@@ -111,6 +112,7 @@ body {
   font-weight: bolder;
   background: linear-gradient(45deg, #131bc3, #5f92be, rgb(61, 85, 124));
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 @media (max-width: 768px) {
@@ -139,6 +141,18 @@ body {
   width: 250px;
   height: 270px;
   transform: translate(25px, 25px);
+}
+@media (max-width: 768px) {
+  .about-us-img {
+    border: 4px solid var(--color-type1);
+    width: 200px;
+    height: 200px;
+  }
+  .about-content-img {
+    width: 200px;
+    height: 220px;
+    transform: translate(25px, 25px);
+  }
 }
 .about-us-detail {
   max-width: 400px;
@@ -214,6 +228,13 @@ body {
   font-size: 16px;
   font-weight: bold;
 }
+@media (max-width: 768px) {
+  .progress-bar-view {
+    width: 200px;
+    height: 6px;
+  }
+}
+
 /* education section */
 .about-us-content-edu-section {
   width: 70%;
@@ -265,8 +286,16 @@ body {
   font-weight: bolder;
   background: linear-gradient(45deg, #131bc3, #5f92be, rgb(61, 85, 124));
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media (max-width: 768px) {
+  .about-us-content-edu-section {
+    width: 80%;
+    margin: 10px;
+  }
+}
+
 /* certificate view */
 .certificate-showcase-container {
   text-align: center;
@@ -329,8 +358,24 @@ body {
   text-align: justify;
   background: linear-gradient(45deg, #131bc3, #5f92be, rgb(61, 85, 124));
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media (max-width: 768px) {
+  .certificate-showcase-card {
+    width: 252px;
+    height: 250px;
+  }
+  .certificate-showcase-card-uppersection {
+    width: 250px;
+    height: 180px;
+  }
+  .certificate-showcase-card-uppersection img {
+    width: 250px;
+    height: 160px;
+  }
+}
+
 /* portfolio view */
 .portfolio-showcase-container{
   margin: 30px;
@@ -400,6 +445,7 @@ body {
 .portfolio-showcase-card:hover .portfolio-showcase-below{
   height: 100%;
 }
+
 /* footer section */
 .footer-section{
   padding: 30px;
@@ -424,6 +470,7 @@ body {
 .footer-icon span {
   background: linear-gradient(45deg, #131bc3, #5f92be, rgb(61, 85, 124));
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .footer-contact-socialmedia{
@@ -438,10 +485,10 @@ body {
     gap: 50px;
   }
 }
-
 .social-link i{
   background: linear-gradient(45deg, #131bc3, #5f92be, rgb(61, 85, 124));
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 24px;
 }
