@@ -159,6 +159,11 @@ body {
   margin-left: 100px;
   margin-top: 70px;
 }
+@media (max-width: 768px) {
+  .about-us-detail {
+    margin-left: 60px;
+  }
+}
 .about-us-detail p {
   text-align: justify;
 }
@@ -374,6 +379,9 @@ body {
     width: 250px;
     height: 150px;
   }
+  .certificate-showcase-card-lowersection {
+    padding: 5px;
+  }
 }
 
 /* portfolio view */
@@ -482,7 +490,7 @@ body {
 }
 @media (max-width: 768px) {
   .footer-section{
-    padding: 20px;
+    padding: 10px;
   }
   .footer-contact-socialmedia {
     gap: 50px;
